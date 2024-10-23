@@ -1,0 +1,138 @@
+
+body{
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
+}
+p{
+    color: #FFF;
+
+}  
+.banner{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding-top: 60px;
+    border-bottom: 1px solid #33A8DB80;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50)0%, rgba(51, 168, 219, 0.15)50%, rgba(0, 0, 0, 0.08)100%), url('/trilha-css-desafio-01-main/assets/images/banner.png');
+}  
+.banner .banner-content{
+    width: 510px;
+    height: 393px;
+    margin: 56px 0px 0px 456px;
+    text-align: center;
+    margin: 0 auto; /* Centraliza horizontalmente */   
+}
+.banner .banner-content .logo{
+    width: 268px;
+    height: 268px;
+    border-radius: 50%;
+    background: #00000033;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    margin: 0 auto; /* Centraliza horizontalmente */       
+}
+.banner .banner-content .logo [title="Logotipo Trilha de CSS DIO"]{
+    max-width: 100%; /* Opcional, para garantir que a imagem não ultrapasse os limites do container */
+    height: auto; /* Mantém a proporção da imagem */
+}
+h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.57px;
+    letter-spacing: 0.19em;
+    text-align: center;
+    color: #33A8DB;
+    text-transform: uppercase;
+}
+h1{   
+     font-size: 2.5rem; /* Ajuste o tamanho da fonte conforme necessário */
+     font-weight: 900; /* Opcional, para tornar o texto mais espesso */
+     background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text; /* Para navegadores baseados em WebKit (como Chrome e Safari) */
+     background-clip: text; /* Para navegadores modernos */
+     color: transparent; /* Torna a cor de fundo transparente, assim o gradiente é visível */
+     margin-top: 0.1%;
+}
+.banner p{
+    font-size: 1.35rem;
+    font-family: none;
+    text-align: justify;
+    letter-spacing:0.33px;
+}
+.banner button{
+    border-color: transparent;
+    border-image: linear-gradient(#3BA1CD, #1572B7);
+    border-image-slice: 10;
+    width: 326px;
+    height: 57px;
+    font-size: 16px;
+    color: #31A8DD;
+    background: transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#course-content{
+    width: 792px;
+    height: 348px;
+    margin: 100px auto; /* Centraliza horizontalmente */  
+    text-align: center;
+}
+#course-content p{
+    font-size: 16px;   
+}
+#course-content .module{
+    border: 1px solid #33A8DB ;
+    width: 535px;
+    margin: 0 auto 24px;
+    padding: 16px;
+    border-radius: 57px;
+    background: #252525;
+    color: #FFF;
+}
+#course-content span{
+    color: #33A8DB;
+}
+
+#transform-world{
+    height: 368px;
+    border-top: 1px solid #33A8DB80;
+    border-bottom: 1px solid #33A8DB80;
+    background-image: url('/trilha-css-desafio-01-main/assets/images/woman-code.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}   
+#transform-world p{
+    width: 244px;
+    height: 141px;
+    margin-top: 111px;
+    margin-left: 10%;
+    font-size: 33px;
+    font-weight: bold;
+    text-shadow: 3px 2px 0px #33A8DB;
+}
+#professional-challenges{
+    height: 800px;
+    text-align: center;
+
+}
+#professional-challenges img{
+    width: 659px;
+    height: 429px;
+}
+#professional-challenges p{
+    width: 792px;
+    height: 76px;
+    margin: 50px auto ;
+    font-size: 16px;
+}
+footer{
+    height: 170px;
+    border-top: 1px solid #33A8DB80; 
+    text-align: center;
+}
+footer .dio-logo{
+    margin-top: 59px;
+    
+}
