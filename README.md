@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Trilha de CSS - DIO </title>
 
-  <link rel="stylesheet" href="/assents/css/style.css">
+  <link rel="stylesheet" href="/trilha-css-desafio-01-main/assents/style.css">
 </head>
 <body>
   <header class="banner">
